@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+}
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.first-col {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.second-col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.third-col {
+    width: 35%;
+}
+.category-button {
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgba(196, 196, 196, 0.71);
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.category-button:hover {
+    border: 1px solid rgba(147, 145, 145, 0.93);
+}
+.products-list {
+    padding-right: 40px;
+}
+.product {
+    display: flex;
+    align-items: center;
+    border: 5px dashed rgba(96, 96, 96, 0.21);
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.product-info-title, .products-list-title {
+    visibility: hidden;
+}
+.list-img {
+    width: 30%;
+    height: auto;
+}
+.list-info {
+    padding-left: 15px;
+}
+.list-button {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    background: green;
+}
+.about-img-container {
+    display: flex;
+    justify-content: center;
+}
+.about-image {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+}
+.about-price {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    background: green;
+}
+.about-buy-button {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    border: 2px solid rgb(13, 180, 0);
+    border-radius: 30px;
+    font-size: 25px;
+    background: white;
+    margin-left: 35px;
+}
+.about-buy-button:hover {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    border: 2px solid rgba(5, 114, 0, 0.8);
+    border-radius: 30px;
+    font-size: 25px;
+    background: #e3e3e3;
+    margin-left: 35px;
+    cursor: pointer;
+}
