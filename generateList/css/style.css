@@ -1,0 +1,30 @@
+.list {
+    padding: 0 10px;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list span {
+    cursor: pointer;
+    position: relative;
+}
+
+.list span::before {
+    content: '-';
+    font-weight: bold;
+    position: absolute;
+    left: -10px;
+}
+
+.list span.hide::before {
+    content: '+';
+    font-weight: bold;
+    position: absolute;
+    left: -12px;
+}
+
+.list span.hide ~ ul {
+    display: none;
+}
